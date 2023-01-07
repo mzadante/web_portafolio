@@ -1,0 +1,26 @@
+.medals__title{
+    display: flex;
+    color: #3FFC8B;
+    margin-top: 5rem;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+.medals-container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(14, 8, 53, 0.576);
+}
+.icon__box__medals{
+    display: flex;
+    justify-content: center;
+    
+}
+.img__skill{
+    width: 54px;
+    height: 54px;
+}
+.img__medals{
+    width: 150px;
+    height: 150px;
+}
