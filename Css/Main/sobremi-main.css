@@ -1,0 +1,33 @@
+/*main*/
+.contain-main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+/*contenedor general*/
+.sobreMi-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*titulo*/
+.sobreMi__title{
+    display: flex;
+    color:  #3FFC8B;
+    margin-top: 3rem;
+    margin-left: 16%;
+    font-size: 2rem;
+}
+/*contenedor parrafo */
+.sobreMi__paraffo__box{
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+    display: flex;
+    margin: -5px;
+    line-height: 1.5em;
+    width: 40%;
+    font-size: 1.6rem;
+}
+/*manipular parrafo*/
+.parrafo{
+    padding: 10px;
+}
