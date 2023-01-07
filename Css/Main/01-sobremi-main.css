@@ -13,6 +13,7 @@
     background-size: cover;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 /*titulo*/

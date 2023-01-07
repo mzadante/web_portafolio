@@ -1,30 +1,32 @@
+.contain-formacion{
+    font-family: 'Source Code Pro', monospace;
+}
 .formacion__title_top{
     display: flex;
     color: aliceblue;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left: 50px;
     font-family: 'Source Code Pro', monospace;;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 .formacion__title{
     display: flex;
-    color: #3FFC8B;
-    margin-top: 5rem;
+    color:  #f7f8f7;
+    margin-top: 2rem;
     justify-content: center;
-    font-family: 'Source Code Pro', monospace;;
     font-size: 2rem;
+    text-shadow: black 0.1em 0.1em 0.1em;
 }
 .formacion-container{
     display: flex;
-    /* background-color: rgba(14, 8, 53, 0.576); */
+    background-color:  #516859;
     justify-content: space-evenly;
-    margin-top: 4rem;
+    align-items:center;
 }
 
 .img__formacion{
     display: flex;
-    margin-bottom: 50%;
-    
+    padding: 10%;
 }
 .formacion-parrafos-container a{
     display: flex;
@@ -33,11 +35,10 @@
     /* height: 400px; */
     /*color: rgb(8, 251, 138);*/
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size:1rem;
     margin: 20px;
     line-height: 1.5em;
     font-weight: 300;   
-
 }
 .parrafo1 {
     margin-left: 30px;
