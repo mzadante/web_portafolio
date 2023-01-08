@@ -22,8 +22,10 @@
     color:  #f7f8f7;
     margin-top: 1rem;
     margin-left: 16%;
+    font-family: 'Source Code Pro', monospace;
     font-size: 2rem;
     text-shadow: black 0.1em 0.1em 0.1em;
+    letter-spacing: 0.1em
 }
 /*contenedor parrafo */
 .sobreMi__paraffo__box{

@@ -1,0 +1,12 @@
+.footer-rodapie{
+    
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+    text-shadow: black 0.1em 0.1em 0.1em;
+}

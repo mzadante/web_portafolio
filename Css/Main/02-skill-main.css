@@ -17,6 +17,7 @@
     font-size: 2rem;
     text-shadow: black 0.1em 0.1em 0.1em;
     font-family: 'Source Code Pro', monospace;
+    letter-spacing: 0.12em;
 }
 .icon__box{
     display: flex;
