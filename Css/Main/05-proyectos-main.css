@@ -76,3 +76,9 @@
     padding: 1em;
     color: rgb(41, 246, 140);
 }
+/*Responsive*/
+@media (max-width: 800px){
+    .proyectos-title{
+        font-size: small;
+    }
+}

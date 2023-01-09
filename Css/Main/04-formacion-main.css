@@ -77,3 +77,14 @@
     width: 67vw; */
     background-color: rgba(14, 8, 53, 0.576);
 }
+
+/*Responsive*/
+@media (max-width: 800px){
+    .formacion__title{
+        font-size: small;
+    }
+    .formacion-container{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

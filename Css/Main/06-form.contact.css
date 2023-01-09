@@ -71,3 +71,28 @@
 .form__contacto__img{
     width: 60%;
 }
+
+/*Responsive*/
+@media (max-width: 800px) {
+    .form{
+        padding: 0%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container_email{
+        align-items: center;
+    }
+    .container_whassap{
+        display: flex;
+        align-items: center;
+    }
+    .contacto{
+        text-align: center;
+    }
+    .box-contacto{
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1%;
+    }
+    
+}

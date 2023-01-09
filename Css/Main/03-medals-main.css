@@ -31,3 +31,15 @@
     width: 150px;
     height: 150px;
 }
+
+/*Responsive*/
+@media (max-width: 800px){
+    .medals__title{
+        font-size: small;
+        padding: 2%;
+    }
+    .medals-container{
+        flex-wrap: wrap;
+    }
+    
+}

@@ -39,3 +39,19 @@
     width: 54px;
     height: 54px;
 }
+
+/*Responsive*/
+@media (max-width: 800px){
+    .skill__title{
+        font-size: small;
+        margin-bottom: 1%;
+    }
+    .skill-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .icon__box{
+        margin: 5%;
+    }
+}

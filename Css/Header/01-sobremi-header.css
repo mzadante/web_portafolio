@@ -45,3 +45,18 @@
 .parrafo{
     padding: 10px;
 }
+
+/*Responsive*/
+@media (max-width: 800px){
+    .sobreMi-container{
+        flex-wrap: wrap;
+        height: none;
+    }
+    .sobreMi__paraffo__box{
+        margin: 0%;
+        
+        width: 100%;
+        font-size: small;
+    }
+}
+    
