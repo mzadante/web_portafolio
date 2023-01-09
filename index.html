@@ -12,18 +12,21 @@
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&family=Source+Code+Pro:wght@400;500&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="Css/Reset/reset.css">
+        <link rel="stylesheet" href="Css/Body/responsive.css">
         <link rel="stylesheet" href="Css/Body/body-style.css">
         <link rel="stylesheet" href="Css/Header/header-style.css">
-        <link rel="stylesheet" href="Css/Main/01-sobremi-main.css">
+        <link rel="stylesheet" href="Css/Header/01-sobremi-header.css">
         <link rel="stylesheet" href="Css/Main/02-skill-main.css">
         <link rel="stylesheet" href="Css/Main/03-medals-main.css">
         <link rel="stylesheet" href="Css/Main/04-formacion-main.css">
         <link rel="stylesheet" href="Css/Main/05-proyectos-main.css">
         <link rel="stylesheet" href="Css/Main/06-form.contact.css">
         <link rel="stylesheet" href="Css/Footer/footer-rodapie.css">
+        <meta name="viewport" content="widht=device-widht, user-scalable=no, initial-scale = 1.0, minimum-scale=1.0">
     </head>
 
     <body bgcolor="#0D6FBF">
+        <div class="container">
         <STYLE>A {text-decoration: none;} </STYLE>
         <!--Cabecera-->
         <header class="header-container">
@@ -43,35 +46,36 @@
                     </nav>
                 </div>
             </div>
-        </header>
-        
-        <section class="first-section" >
-            <div class="formacion-boxZero">
-                <h2 class="formacion__title_top">Técnico Universitario en Programación / Universidad Técnologica Nacional / Argentina</h2>
-            </div>
-            <!-- <div class="formacion-boxOne">
-                <h2 class="formacion__title_top">Universidad Tecnológica Nacional </h2>
-            </div> -->
-            <div class="contain__profile">
-                <div class="profile-box">
-                    <img class="profile__photo" src="/Img/portafolio.png" alt="">
+            <section class="first-section" >
+                <div class="formacion-boxZero">
+                    <h2 class="formacion__title_top">Técnico Universitario en Programación / Universidad Técnologica Nacional / Argentina</h2>
                 </div>
-                <div class="box-texto">
-                    <span class="texto">Te invito a ver mi Portafólio Web</span>
-                    <div class="contain-icon">
-                        <a class="link__icon" href="https://www.linkedin.com/feed/?trk=nav_back_to_linkedin"><img 
-                                src="/Img/linkedin_32.png" alt=""></a>
-                        <a class="link__icon" href="https://github.com/mzadante"><img src="/Img/git_32.png" alt=""></a>
-                        <a class="link__icon" href="https://www.instagram.com/mzadantemartinez/"><img
-                                src="/Img/instagram_32.png" alt=""></a>
-                        <a class="link__icon" href="https://drive.google.com/file/d/1d5UXpukKwAEXd4dq4He2xdFCX6IcdgMB/view?usp=sharing"><img src="/Img/curriculum_32.png"
-                                alt=""></a>
-                        <a class="link__icon" href="#contacto"><img src="/Img/email.png" alt=""></a>
+                <!-- <div class="formacion-boxOne">
+                    <h2 class="formacion__title_top">Universidad Tecnológica Nacional </h2>
+                </div> -->
+                <div class="contain__profile">
+                    <div class="profile-box">
+                        <img class="profile__photo" src="/Img/portafolio.png" alt="">
+                    </div>
+                    <div class="box-texto">
+                        <span class="texto">Te invito a ver mi Portafólio Web</span>
+                        <div class="contain-icon">
+                            <a class="link__icon" href="https://www.linkedin.com/feed/?trk=nav_back_to_linkedin"><img 
+                                    src="/Img/linkedin_32.png" alt=""></a>
+                            <a class="link__icon" href="https://github.com/mzadante"><img src="/Img/git_32.png" alt=""></a>
+                            <a class="link__icon" href="https://www.instagram.com/mzadantemartinez/"><img
+                                    src="/Img/instagram_32.png" alt=""></a>
+                            <a class="link__icon" href="https://drive.google.com/file/d/1d5UXpukKwAEXd4dq4He2xdFCX6IcdgMB/view?usp=sharing"><img src="/Img/curriculum_32.png"
+                                    alt=""></a>
+                            <a class="link__icon" href="#contacto"><img src="/Img/email.png" alt=""></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <h3 id="sobremi" class="sobreMi__title">Sobre Mí</h3>
+            </section>
+            <h3 id="sobremi" class="sobreMi__title">Sobre Mí</h3>
+        </header>
+        
+        
         <main class="contain-main" >
             <section>
                 <div class="sobreMi-container">
@@ -86,7 +90,7 @@
                     <div class="sobreMi__paraffo__box">
                         <p class="parrafo">
                             En el año 2020 realicé un curso de Java y en 2021 ingresé a la Universidad, ya me siento 
-                            prepararado para la práctica profesional. En mi tiempo libre estudio por mi cuenta. Busco
+                            mas prepararado para la práctica profesional. En mi tiempo libre estudio por mi cuenta. Busco
                             integrar algún equipo de trabajo para aprender mas sobre la programación, les dejo mis
                             habilidades en esta web.
                         </p>
@@ -291,12 +295,11 @@
             <section class="contain-contacto">
                 <h2 id="contacto" class="contacto__title">Contacto</h2>
                 <div class="contain-contacto">
-                    <div class="contacto__img">
-                        <img class="form__contacto__img" src="Img/contacto.png">
-                    </div>
+                    
                     <div class="form">
                         <h3 class="formcontacto__subtext">¿Quieres contactarme?</h3>
                         <div class="box-contacto">
+                            
                             <div class="container_email">
                                 <img class="email" src="Img/email.png">
                                 <div>
@@ -308,6 +311,7 @@
                                 <div>
                                     <a href="tel:+5492604338288"><h2 class="contacto">+54 9 2604-338288</h2></a> 
                                 </div>
+                                
                             </div> 
                         </div>
                     </div>
@@ -322,7 +326,7 @@
                 <p>2023</p>
             </div>
         </footer>
-       
+    </div>
     </body>
 
 </html>

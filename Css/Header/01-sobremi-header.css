@@ -7,13 +7,14 @@
 /*contenedor general*/
 
 .sobreMi-container{
-    height: 464px;
+    /* height: 464px; */
     background-image: url(/Img/fondo_png.png) ;
     background-repeat:no-repeat;
     background-size: cover;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    height: 333px;
 }
 
 /*titulo*/
@@ -23,21 +24,21 @@
     margin-top: 1rem;
     margin-left: 16%;
     font-family: 'Source Code Pro', monospace;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-shadow: black 0.1em 0.1em 0.1em;
     letter-spacing: 0.1em
 }
 /*contenedor parrafo */
 .sobreMi__paraffo__box{
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items:center;
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
     display: flex;
     margin: -5px;
     line-height: 1.5em;
-    width: 40%;
-    font-size: 1.6rem;
+    width: 35%;
+    font-size: 1.2rem;
     text-shadow: black 0.2em 0.2em 0.4em;
 }
 /*manipular parrafo*/

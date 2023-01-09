@@ -1,22 +1,19 @@
 .contacto__title{
     display: flex;
     color:  #f7f8f7;
-    margin-top: 2rem;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-shadow: black 0.1em 0.1em 0.1em;
     font-family: 'Source Code Pro', monospace;
     letter-spacing: 0.12em;
 }
 .contain-contacto{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap:wrap;
     background-color: #36433b;
-    width: 100vw;
-    padding: 1%;
-
+    width: 100%;
 }
 .formcontacto__subtext{
     font-family: 'Source Code Pro', monospace;
@@ -26,47 +23,51 @@
     
 }
 .box-contacto{
-    gap: 4rem;
     display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-evenly;
+
 }
 .form{
     display: flex;
-    flex-direction: column;
     padding: 2%;
     background-color: #354a3d;
-    align-items: center;
-    margin-top: 1%;
-    
+    align-items: center; 
 }
-.container_whassap{
-    
-    color: #fff;
 
-}
 .whassap{
     width: 64px;
 }
 .formcontacto__subtext{
-    
     color: #fff;
     font-weight: 100;
+    margin-left: 5%;
 }
 .container_email{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     display: flex; 
     justify-content: space-around;
     flex-direction: column;
     color: #fff;
+    padding: 2%;
 }
 .email{
     width: 64px;
 }
-.contacto a{
+.a{
+    text-decoration: none;
+    color: #fff;
+}
+.contacto{
     color: #fff;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5em;
     text-shadow: black 0.1em 0.1em 0.1em;
-    text-decoration: none;
-    
+    font-size: 1.4rem;
+}
+.form__contacto__img{
+    width: 60%;
 }

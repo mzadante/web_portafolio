@@ -1,4 +1,6 @@
 .container-general{
+    display: flex;
+    justify-content: center;
     font-family: 'Roboto', sans-serif;
     font-family: 'Source Code Pro', monospace;
     
